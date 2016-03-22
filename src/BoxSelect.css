@@ -1,0 +1,49 @@
+.boxSelect {
+    position: relative;
+    width: 100%;
+}
+
+boxSelect {
+    border: none !important;
+}
+
+boxSelect.ng-valid .boxSelectContainer {
+    border-left: 5px solid #42A948; /* green */
+}
+boxSelect.ng-invalid .boxSelectContainer {
+    border-left: 5px solid #a94442; /* red */
+}
+
+.boxSelectContainer {
+    list-style: none;
+    display: -webkit-flex;
+    -webkit-flex-flow: row;
+    -webkit-flex-wrap: wrap;
+    padding: 0;
+}
+
+.boxSelectItem {
+    -webkit-flex-grow: 1;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    list-style: none;
+}
+
+.boxSelectItem:hover {
+    display: block;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    list-style: none;
+    background-color: #c5c5c5;
+    cursor: pointer;
+}
+
+.boxSelectItem.boxSelectItemSelected {
+    background-color: #295bc5;
+    color: #ffffff;
+
+}
