@@ -1,0 +1,22 @@
+{
+  "name": "box-select",
+  "version": "1.0.0",
+  "description": "An Angular2 custom select input that displays boxes a user can click to choose a value. Supports selection of whole items or individual item properties.",
+  "main": "BoxSelect.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tunaweza/box-select.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tunaweza/box-select/issues"
+  },
+  "homepage": "https://github.com/Tunaweza/box-select#readme",
+  "dependencies": {
+    "angular2": "2.0.0-beta.9"
+  }
+}
